@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-
+[image2]: 
 # Project 1: Navigation
 
 ### Introduction
@@ -39,8 +39,12 @@ The task is episodic, and in order to solve the environment, your agent must get
 Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
 
 ### Navigation problem solved 
-Check out `Navigation-solved.ipynb` to observe the scores of the successive iteration of training.
+Check out `Navigation-solved.ipynb` in Vanilla-DQN-solved to observe the scores of the successive iteration of training of the Vanilla Deep Q network only.
 
 model.py holds the forward pass mlp network used.
 dqn_agent.py holds the agent.
+
+Have been coded as well Double DQN and Dueling DQN with 50-rolling average scores plotted below. 
+Check out Navigation-compare_algos.ipynb for environment solved with all three methods.
+![50-rolling Average Scores][image2]
 
