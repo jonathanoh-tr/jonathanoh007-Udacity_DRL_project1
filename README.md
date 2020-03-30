@@ -45,6 +45,8 @@ model.py holds the forward pass mlp network used.
 dqn_agent.py holds the agent.
 
 Have been coded as well Double DQN and Dueling DQN with 50-rolling average scores plotted below. 
+
 Check out Navigation-compare_algos.ipynb for environment solved with all three methods.
+
 ![50-rolling Average Scores][image2]
 
