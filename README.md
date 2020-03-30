@@ -1,7 +1,7 @@
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-[image2]: 
+[image2]: https://github.com/jonathanoh007/jonathanoh007-Udacity_DRL_project1/blob/master/50_rolling_average%20of%20scores.png
 # Project 1: Navigation
 
 ### Introduction
