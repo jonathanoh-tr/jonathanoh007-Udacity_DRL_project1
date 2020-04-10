@@ -1,3 +1,6 @@
+print("****************************")
+print("Loading Vanilla Q Learning Agent")
+print("****************************")
 
 
 import torch

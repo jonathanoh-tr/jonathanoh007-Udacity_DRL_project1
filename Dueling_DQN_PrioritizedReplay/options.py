@@ -14,7 +14,7 @@ class options():
         #Agent Options
         self.parser.add_argument('--batch', type=int, nargs='?', default=64, help='batch size to be used')
         self.parser.add_argument('--memory_size', type=int, nargs='?', default=1000000, help='size of replay memory')
-        self.parser.add_argument('--update_freq', type=int, nargs='?', default=32, help='how often to update the model')
+        self.parser.add_argument('--update_freq', type=int, nargs='?', default=64, help='how often to update the model')
         self.parser.add_argument('--lr', type=int, nargs='?', default=0.0001, help='learning rate')
         self.parser.add_argument('--discount_rate', type=int, nargs='?', default=0.9, help='rewards discount rate')
         self.parser.add_argument('--transfer_rate', type=int, nargs='?', default=0.001, help='transfer rate for soft update')

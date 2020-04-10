@@ -1,3 +1,7 @@
+print("****************************")
+print("Loading Vanilla Q Learning Options")
+print("****************************")
+
 import argparse
 
 class options():
@@ -17,7 +21,7 @@ class options():
         self.parser.add_argument('--transfer_rate', type=int, nargs='?', default=0.001, help='transfer rate for soft update')
 
         #Env Options
-        self.parser.add_argument('--env', type=str, nargs='?', default='CartPole-v0', help='Name of the OpenAI Env')
+        self.parser.add_argument('--env', type=str, nargs='?', default='Unity_Banana', help='Name of the OpenAI Env')
         self.parser.add_argument('--env_seed', type=int, nargs='?', default=0, help='random seed for the environment')
 
         #Training Options

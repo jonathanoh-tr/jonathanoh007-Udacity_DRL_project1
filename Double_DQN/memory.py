@@ -1,3 +1,6 @@
+print("****************************")
+print("Loading Double Q Learning Memory")
+print("****************************")
 
 from collections import deque, namedtuple
 import numpy as np

@@ -1,3 +1,6 @@
+print("****************************")
+print("Loading Double Q Learning PyTorch Model")
+print("****************************")
 
 import torch
 import torch.optim

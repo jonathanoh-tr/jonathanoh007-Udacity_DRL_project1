@@ -1,3 +1,6 @@
+print("****************************")
+print("Loading Vanilla Q Learning PyTorch Model")
+print("****************************")
 
 import torch
 import torch.optim

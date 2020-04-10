@@ -1,3 +1,6 @@
+print("****************************")
+print("Loading Vanilla Q Learning Util")
+print("****************************")
 
 def render_text_envq(env, agent, brain_name):
     #env.seed(12456)

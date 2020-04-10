@@ -1,4 +1,6 @@
-
+print("****************************")
+print("Loading Dueling Q Learning Memory")
+print("****************************")
 from collections import deque, namedtuple
 import numpy as np
 import torch
